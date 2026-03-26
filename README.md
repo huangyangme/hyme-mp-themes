@@ -18,6 +18,8 @@
 2. 将 `Typora/wechat-elegant.css` 放入该文件夹。
 3. 重启 Typora，在菜单栏“主题”中选择 `WeChat-Elegant`。
 
+[Write Custom Typora Theme](https://theme.typora.io/doc/zh/Write-Custom-Theme/)
+
 ### iA Writer
 1. 在 Finder 中进入 `iA-Writer/` 文件夹。
 2. 双击 `WeChat-Elegant.iatemplate` 即可自动安装。
@@ -32,6 +34,15 @@ iA Writer 主题默认安装位置通常在 `~/Library/Containers/pro.writer.mac
 1. 在 Typora 中编写完成。
 2. 使用 `导出为 HTML` 功能。
 3. 在浏览器打开 HTML，全选并粘贴至微信后台。
+
+## 在图片下方增加一行「图注（Caption）」
+
+当给图片加 alt，也就是 markdown 的 `![猫](cat.jpg)` 语法中`[]`里的描述内容，iA Writer 和 Ulysses 会解析成 figcaption，但 Typora 不予处理，所以 Typora 可以手动在紧跟图片后用 `<small>` 标签，例如：
+
+```markdown
+![](cat.jpg)
+<small>猫咪</small>
+```
 
 ## 📄 License
 [MIT](LICENSE) © Huang Yang
