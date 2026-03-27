@@ -1,43 +1,60 @@
 # WeChat-Elegant Themes
 
-一套专为微信公众号排版优化的跨平台编辑器主题。追求极致的人文感排版，核心采用 **Optima** 与 **PingFang SC Light** 字体组合。
+公众号「黄杨ME」的排版样式主题。目前提供 Typora (.css), Ulysses (.ulstyle & .css) 和 iA Writer (.iatemplate) 版本下载。
 
 ## 🌟 特性
 - **人文感字体栈**：西文 Optima 搭配中文极细平方，视觉清透、具有呼吸感。
 - **公众号适配**：针对微信后台过滤器优化，解决 H2 边线丢失、图片同步等痛点。
-- **多平台统一**：同时支持 Typora (.css), Ulysses (.ulstyle) 和 iA Writer (.iatemplate)。
 - **精排细节**：黄色荧光笔高亮样式、左对齐断词优化、1.8x 黄金行高。
 
 ## 📸 预览å
 > [此处建议放置一张你在 Mac Studio 上截取的 Typora 渲染图]
 
-## 🛠 安装方法
+## 🛠 安装和使用
 
 ### Typora
-1. 打开 Typora 偏好设置 -> 外观 -> 打开主题文件夹（通常在 `~/Library/Application Support/abnerworks.Typora/themes`）。
-2. 将 `Typora/wechat-elegant.css` 放入该文件夹。
-3. 重启 Typora，在菜单栏“主题”中选择 `WeChat-Elegant`。
 
-[Write Custom Typora Theme](https://theme.typora.io/doc/zh/Write-Custom-Theme/)
+1. 打开 Typora 偏好设置 -> 外观 -> 打开主题文件夹（在 macOS 中一般是 `~/Library/Application Support/abnerworks.Typora/themes`）。
+2. 将主题文件 `hyme-typora.css` 放入该文件夹。
+3. 重启 Typora，在菜单栏「主题」中选择 `Hyme Typora`即可使用主题。
+
+![使用主题](assets/typora.jpg)
+
+- Typora 提供的 [Write Custom Typora Theme](https://theme.typora.io/doc/zh/Write-Custom-Theme/)。
+- Typora 官方提供的更多主题：[https://theme.typora.io](https://theme.typora.io)。
 
 ### iA Writer
-1. 在 Finder 中进入 `iA-Writer/` 文件夹。
-2. 双击 `WeChat-Elegant.iatemplate` 即可自动安装。
 
-iA Writer 主题默认安装位置通常在 `~/Library/Containers/pro.writer.mac/Data/Library/Application Support/iA Writer/Templates`
+1. 双击下载的 `hyme-ai-writer.iatemplate` 主题文件即可完成安装。
+2. 在菜单栏「视图」-「模版」中选择「hyme」即可使用主题。
+3. 在软件设置「模版」下的「自定义模版」列表中也可以看到安装的主题，或卸载某个主题。
+
+![使用主题](assets/ia-writer.jpg)
+
+- iA Writer 提供的 [iA Writer Templates](https://github.com/iainc/iA-Writer-Templates)。
+- iA Writer 官方提供的更多主题：[https://ia.net/downloads](https://ia.net/downloads)。
 
 ### Ulysses
-1. 双击 `Ulysses/wechat-elegant.ulstyle` 进行安装。
 
-## 📝 写作建议 (针对微信公众号)
-由于微信后台的限制，建议配合以下流程以获得最佳效果：
-1. 在 Typora 中编写完成。
-2. 使用 `导出为 HTML` 功能。
-3. 在浏览器打开 HTML，全选并粘贴至微信后台。
+  1. 双击 `hyme-ulysses.ulstyle` 即可完成安装。
+  2. 进入 Ulysses 导出视图，类型选 HTML，样式选`hyme-ulysses`。
 
-## 在图片下方增加一行「图注（Caption）」
+![使用主题](assets/ulysses.jpg)
 
-当给图片加 alt，也就是 markdown 的 `![猫](cat.jpg)` 语法中`[]`里的描述内容，iA Writer 和 Ulysses 会解析成 figcaption，但 Typora 不予处理，所以 Typora 可以手动在紧跟图片后用 `<small>` 标签，例如：
+- Ulysses 官方提供的 [How to customize Ulysses](https://styles.ulysses.app/learn)。
+- Ulysses 官方提供的更多主题：[https://styles.ulysses.app/styles/](https://styles.ulysses.app/styles/)。
+
+## 在图片下方显示「图注（Caption）」
+
+当给图片加 alt，也就是 markdown 图片语法中`[]`里的描述内容，iA Writer 和 Ulysses 会解析成 figcaption，主题会把图注显示为一行居中小字。
+
+```markdown
+![猫咪](cat.jpg)
+```
+
+![猫咪](assets/cat.jpg)
+
+但 Typora 不予处理，所以 Typora 可以手动在紧跟图片后用 `<small>` 标签，例如：
 
 ```markdown
 ![](cat.jpg)

@@ -7,9 +7,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.huangyangme.template</string>
+	<string>com.hyme.template</string>
 	<key>CFBundleName</key>
-	<string>huangyangme</string>
+	<string>hyme</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -27,9 +27,9 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>90</integer>
 	<key>IATemplateDescription</key>
-	<string>huangyangme template.</string>
+	<string>hyme template.</string>
 	<key>IATemplateAuthor</key>
-	<string>huangyangme</string>
+	<string>hyme</string>
 	<key>IATemplateAuthorURL</key>
 	<string>https://huangyang.me</string>
 </dict>
